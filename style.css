@@ -17,16 +17,15 @@ header .header {
     position: relative;
     width: 1024px;
     height: 70px;
-    line-height: 30px;
+    line-height: 70px;
     margin: 0 auto;
 }
 .head-image {
-    width: 160px;
     height: 70px;
 }
 .nav-list {
     position: absolute;
-    top: 22px;
+    top: 0px;
     right: 22px;
 }
 .bars-image {
@@ -334,26 +333,29 @@ header .header {
 .contact-mail-tell {
     float: left;
     width: 400px;
+}
+.mail-tell {
     text-align: center;
 }
 .contact-mail-headline {
     font-size: 20px;
+    margin-right: 80px;
 }
 .contact-mail-text {
-	width: 400px;
     font-size: 16px;
     padding-top: 5px;
-    margin-left: 33px;
+    margin-right: 15px;
+    text-decoration: underline;
 }
 .contact-tell-headline {
     font-size: 20px;
     padding-top: 20px;
+    margin-right: 90px;
 }
 .contact-tell-text {
-    width: 400px;
     font-size: 16px;
     padding-top: 5px;
-    margin-left: 40px;
+    text-decoration: underline;
 }
 .contact-sns {
     float: left;
@@ -378,13 +380,12 @@ header .header {
 .footer {
     width: 100%;
     height: 60px;
-    padding: 50px 0;
     background-color: #EC715F;
 }
 .footer-text {
     font-size: 16px;
     color: #FAFAFA;
-    line-height: 10px;
+    line-height: 60px;
     text-align: center;
 }
 
@@ -472,23 +473,20 @@ header .header {
 	}
     .strength1 {
 	    float: none;
+        width: 100%;
 	    text-align: center;
-	    padding: 0 10px;
 	    padding-top: 30px;
-	    margin-left: 0px;
 	}
     .strength2 {
 	    float: none;
-	    padding: 0 10px;
+        width: 100%;
 	    padding-top: 10px;
-	    margin-left: 0px;
 	}
     .strength3 {
 	    float: none;
-	    padding: 0 10px;
+        width: 100%;
 	    padding-top: 10px;
 	    padding-bottom: 90px;
-	    margin-left: 0px;
 	}
     .profile {
 	    width: 100%;
@@ -544,29 +542,32 @@ header .header {
 		margin-left: 0px;
 		margin-right: 0px;
 	}
+    .mail-tell {
+        margin-left: 0px;
+    }
 	.contact-mail-headline {
 		width: 100%;
-		text-align: center;
+        text-align: center;
 	}
     .contact-mail-text {
     	width: 100%;
-    	margin-left: 0px;
+    	text-align: center;
 	}
     .contact-tell-headline {
 	    width: 100%;
+        text-align: center;
 	}
     .contact-tell-text {
     	width: 100%;
-    	margin-left: 0px;
+    	text-align: center;
 	}
     .contact-sns {
-	    width: 283px;
-	    margin-left: 50px;
+	    width: 100%;
+        margin-left: 0px;
 	}
     .contact-sns-headline {
 	    padding-top: 20px;
 	    text-align: center;
-	    margin-right: 40px;
 	    margin-left: 0px;
 	}
     .fab fa-facebook-f {
@@ -574,5 +575,5 @@ header .header {
 	}
     .contact-image {
 	    padding-bottom: 90px;
-	    margin-left: 10px;
+        margin-left: 60px;
 	}
